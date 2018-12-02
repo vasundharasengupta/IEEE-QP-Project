@@ -2,7 +2,7 @@
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
   // these constants won't change:
   // const int ledPin = 13;      // LED connected to digital pin 13
-  const int knockSensor = A0; // the piezo is connected to analog pin 0
+  const int knockSensor = A0; // the piezzo is connected to analog pin 0
   const int threshold = 450;  // threshold value to decide when the detected sound is a knock or not
 
   const int ledPin = 13;
